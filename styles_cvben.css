@@ -1,0 +1,59 @@
+@font-face{
+    font-family: 'Montserrat-Light';
+    src: url(montserrat/Montserrat-Light.otf);
+}
+*{
+    font-family: Montserrat-Light, Arial, Helvetica, sans-serif;
+}
+.header{
+    border: 1px solid #9E0000;
+    border-radius: 10px;
+    
+}
+.soustitre{
+    font-size: 1.3em;
+    color: rgb(197, 197, 197);
+    text-shadow: 2px 2px 3.5px black;
+    
+}
+em{
+    font-style: normal;
+    text-decoration: underline;
+}
+h1{
+    color: white;
+    text-shadow: 2px 2px 3.5px black;
+    
+}
+h2{
+    color: #9E0000;
+    text-shadow: 2px 2px 3.5px black;
+}
+h3{
+    
+    color: gray;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 4px;
+    padding: 5px;
+}
+h4{
+    text-shadow: 2px 2px 20px black;
+}
+.cadre{
+    background-color: #9E0000;
+    padding: 20px;
+    border-radius: 10px;
+}
+.competences{
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    padding-left: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.coordonnees{
+    margin-left: 20px;
+}
+a:hover{
+    text-shadow: 2px 2px 20px black;
+}
